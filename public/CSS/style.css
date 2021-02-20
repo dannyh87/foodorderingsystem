@@ -1,0 +1,46 @@
+@font-face{
+    font-family: Merriweather;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+}
+h1 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: italic;
+}
+
+body {
+    background-color: #808080;
+    color: white;
+
+}
+
+table {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+table td  {
+    font-family: Merriweather;
+    border: 3px solid #855e42;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 200px;
+    padding: 10px;
+
+}
+
+input {
+    font-size: 30px;
+    width: 200px;
+}
+
+#orderTable {
+    display:block;
+    box-sizing: border-box;
+    background-color: #808080;
+    color:white;
+    justify-content: center;
+}
