@@ -6,39 +6,40 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <h1>Welcome to Dan's Fast Food Restaurant</h1>
+  <div>
+    <h1>Big Byte Internet Cafe</h1>
 
     <form method="POST" action="/PlaceOrder">
-      <table>
-        <tr>
-          <td><label for="tbl">Table Number</label></td>
-          <td><input id="tbl" type="number" name="tableNumber" /></td>
-        </tr>
-        <tr>
-          <td><label for="bgr">Burger &amp; chips</label></td>
-          <td><input id="bgr" type="number" name="BurgerMeal" /></td>
-        </tr>
-        <tr>
-          <td><label for="fsh">Fish &amp; chips </label></td>
-          <td><input type="number" id="fsh" name="FishMeal" /></td>
-        </tr>
-        <tr>
-          <td><label for="las">Lasagne</label></td>
-          <td><input type="number" id="las" name="Lasagne" /></td>
-        </tr>
-        <tr>
-          <td><label for="brs">Beers</label></td>
-          <td><input type="number" id="brs" name="Beers" /></td>
-        </tr>
-        <tr>
-          <td><label for="cks">Cokes</label></td>
-          <td><input type="number" id="cks" name="Cokes" /></td>
-        </tr>
-        <tr>
-          <td><input type="submit" value="Place Order" /></td>
-        </tr>
-      </table>
+          <!-- <div class='tableNumber'><label for="tbl">Table Number</label></form>
+          <input id="tbl" type="number" name="tableNumber" /></div> -->
+          <button type="button" class="collapsible, menuItem" >Coffee</button>
+        <div class="content, menuItem" id="dropdown">
+          <div>
+            <td><label for="cap">Cappuccino</label></td>
+            <td><input id="cap" type="number" name="Cappuccino" /></td>
+          </div>
+          <div>
+            <div><label for="wht">Flat White </label></div>
+            <div><input type="number" id="wht" name="FlatWhite" /></div>
+          </div>
+          <div>
+            <div><label for="lat">Latte</label></div>
+            <div><input type="number" id="lat" name="Latte" /></div>
+          </div>
+        </div>
+        <div>
+          <!-- <div><label for="tea">Tea</label></div>
+          <div><input type="number" id="tea" name="Tea" /></div>
+        </div>
+        <div>
+          <div><label for="cks">Cokes</label></div>
+          <div><input type="number" id="cks" name="Cokes" /></div>
+        </div>
+        <div>
+          <div><input type="submit" value="Place Order" /></div>
+        </div>
+      </div> -->
     </form>
+    <script src="./script.js"></script>
   </body>
 </html>
